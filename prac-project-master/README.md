@@ -1,3 +1,32 @@
+# Note: To "sign in" with profile fake emails' passwords:
+
+name: Karen
+Email: karen2@gmail.com
+password: karen6778
+
+
+name: Gary
+Email: gary2@gmail.com
+password: garyt6789
+
+
+name: Toby
+Email: toby85@gmail.com
+password: toby85
+
+
+name: Bobby
+Email: bobby@gmail.com
+password: gablerbob27
+
+
+
+
+Note: This is a demo to show how chat interactions work with this app. Of course I would not store real data here!
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +97,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+

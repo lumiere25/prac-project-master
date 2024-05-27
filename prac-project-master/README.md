@@ -1,4 +1,4 @@
-# Note: To "sign in" with profile fake emails' passwords:
+# Note: To "sign in" with fake profiles passwords:
 
 name: Karen
 password: karen6778

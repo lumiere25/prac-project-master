@@ -1,0 +1,102 @@
+
+.emoji {
+position: fixed;
+top: 10%;
+margin: auto;
+font-size: 35px;
+}
+
+.modal_overlay {
+position: fixed;
+margin: auto;
+top: 20%;
+
+
+ }
+
+ 
+
+  .form_exit {
+    margin-left: auto;
+ }
+
+
+ .form_exit button {
+    display: flex;
+    padding: 7px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+ }
+
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f5f5;
+    border: 2px solid black;
+    padding: 4%;
+    margin-top: 0%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px;
+    max-width: 90%; 
+  }
+
+   .account_info {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Irish Grover 200';
+   }
+
+    .modal_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+
+    .form_label {
+        font-size: 16px;
+    }
+
+    .form_input {
+    display: flex;
+    border: 2px solid black;
+    }
+
+    .modal_submit {
+        margin-top: 10px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: rgb(27, 28, 28);
+        color: #fff;
+        font-family: 'Irish Grover';
+        cursor: pointer;
+    }
+    
+    /* Laptop/Desktop/Tablets/Mobile */
+     @media screen and (max-width: 1060px) {
+      .modal_overlay {
+      position: absolute;
+      margin: auto;
+      width: 48em;
+      }
+      .emoji {
+        position: absolute;
+        top: 20px;
+      }
+  }    
+  
+      @media screen and (max-width: 500px)  {
+       .modal_overlay {
+        position: absolute;
+        left: 3em;
+        width: 36em;
+       }
+
+       .account_info h2 {
+        font-size: 15px;
+       }
+  }

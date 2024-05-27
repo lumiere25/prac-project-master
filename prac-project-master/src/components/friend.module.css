@@ -1,0 +1,4 @@
+ .selected, li:hover {
+    background-color: var(--color-lightest);
+  
+}

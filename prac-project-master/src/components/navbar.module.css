@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Playpen+Sans:wght@300&display=swap');
+
+.navbar {
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar_logo {
+    width: fit-content;
+    margin-left: 20%;
+  }
+
+  .navbar_logo img {
+    width: 20em;
+  }
+
+ div >.reg_btn {
+    position: absolute;
+    right: 30%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Irish Grover';
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.sign_in {
+    margin-top: 40px;
+    margin-left: 30rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Irish Grover';
+    font-size: 16px;
+    padding: 8px;
+    min-width: 95px;
+    cursor: pointer;
+}
+
+.email_sub {
+    display: flex;
+    font-size: 15px;
+    /* margin: 10%; */
+    padding: 0%;
+    margin-left: 10em;
+    font-family: "irish grover";
+    font-size: 18px;
+}
+
+.logout {
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Irish Grover';
+    font-size: 16px;
+    padding: 9px;
+    min-width: 95px;
+    cursor: pointer;
+}
+.sign_in_text {
+    position: absolute;
+    right: 44%;
+    font-size: medium;
+    color: black;
+    width: fit-content;
+}
+
+.logout_container {
+    display: flex;
+    margin-left: 13%;
+    font-size: large;
+    color: black;
+    width: fit-content;
+}
+
+
+      /* Navbar */
+
+@media screen and (max-width: 980px)  {
+    .email_sub {
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px)  {
+
+     .navbar_logo  {
+        margin: auto;
+        font-size: 7px;
+     }
+   
+     .email_sub {
+        margin-top: 10px;
+     }
+
+     nav .logout {
+       font-size: 12px;
+     }
+
+     nav {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+     }
+}
+
+
+@media screen and (max-width: 530px)  {
+    nav {
+        margin-top: 10%;
+    }
+}

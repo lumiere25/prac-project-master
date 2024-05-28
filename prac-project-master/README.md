@@ -20,7 +20,7 @@ password: gablerbob27
 
 Note: This is a demo to show how chat interactions work with this app. Of course I would not store real data here!
 
-This is not the complete app, currently I am ironing out some bugs.
+This is not the complete app, I have a larger app that is fetching users from Firebase. currently I am ironing out some bugs.
 
 How to use:
 Simply git clone this app

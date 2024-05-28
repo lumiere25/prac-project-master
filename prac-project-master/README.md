@@ -27,7 +27,7 @@ Simply git clone this app
 then cd into it's name directory
 then type  code .
 This command will open a new browser window in vs code with the file contents.
-Open with live server.
+Run NPM start.
 
 
 

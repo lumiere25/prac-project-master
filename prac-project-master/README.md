@@ -30,6 +30,7 @@ This command will open a new browser window in vs code with the file contents.
 Ensure you are in the correct directory.
 Do an npm i,
 Then run npm start.
+Finally, Enjoy!
 
 
 

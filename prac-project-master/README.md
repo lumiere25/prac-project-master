@@ -22,6 +22,15 @@ Note: This is a demo to show how chat interactions work with this app. Of course
 
 This is not the complete app, currently I am ironing out some bugs.
 
+How to use:
+Simply git clone this app
+then cd into it's name directory
+then type  code .
+This command will open a new browser window in vs code with the file contents.
+Open with live server.
+
+
+
 
 
 
